@@ -4,10 +4,10 @@ const { getToDo,saveToDo, deleted, complete } = require('../controllers/todocont
 const router = Router();
 
 router.get('/', 
-// (req, res) => {
-//     res.json({message: "let's start...."})
-// },
-getToDo
+ (req, res) => {
+     res.json({newTitle: "let's start...."})
+}
+// getToDo
 );
 router.post('/save',saveToDo);
 router.post('/update',complete);
