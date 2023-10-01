@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:5000"
+const baseURL = "https://todo-with-backend-lyart.vercel.app"
 
 const getAllToDo = async (setToDo) => {
     axios
