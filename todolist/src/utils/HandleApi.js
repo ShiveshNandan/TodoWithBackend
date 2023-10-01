@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "todo-with-backend-tau.vercel.app"
+const baseURL = "https://todo-with-backend-tau.vercel.app"
 
 const getAllToDo = async (setToDo) => {
     axios
