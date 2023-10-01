@@ -6,8 +6,8 @@ const router = Router();
 router.get('/', 
  (req, res) => {
      res.json({newTitle: "let's start...."})
-}
-// getToDo
+},
+getToDo
 );
 router.post('/save',saveToDo);
 router.post('/update',complete);
